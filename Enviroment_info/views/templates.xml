@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="environment_banner_head" inherit_id="web.layout" name="Environment Banner">
+        <xpath expr="//head" position="inside">
+            <script type="text/javascript">
+                window.__odoo_env_stage = "<t t-esc="request.env['environment.banner'].sudo().get_stage()"/>";
+            </script>
+        </xpath>
+    </template>
+</odoo>

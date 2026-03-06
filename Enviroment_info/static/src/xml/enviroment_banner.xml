@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<templates xml:space="preserve">
+
+    <t t-name="environment_banner.Banner">
+        <div t-if="state.loaded"
+             class="o_environment_banner"
+             t-att-class="{ 'o_environment_banner_pulse': state.pulse }"
+             t-attf-style="background-color: {{state.bg}}; color: {{state.color}}; border-bottom: 2px solid {{state.border}};">
+            <span><t t-esc="state.label"/></span>
+        </div>
+    </t>
+
+</templates>
