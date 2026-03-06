@@ -12,3 +12,9 @@ class EnvironmentBanner(models.AbstractModel):
         if stage not in ('production', 'staging', 'dev'):
             stage = 'production'
         return stage
+
+    @api.model
+    def log_stage(self):
+        stage = os.environ.get('ODOO_STAGE', 'NON IMPOSTATA')
+        _logger.info("=== ENVIRONMENT BANNER === ODOO_STAGE = '%s'", stage)
+        
