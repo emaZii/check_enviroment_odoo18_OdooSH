@@ -2,7 +2,7 @@ import os
 from odoo import api, models
 
 
-class EnvironmentBanner(models.AbstractModel):
+class EnvironmentBanner(models.Model):
     _name = 'environment.banner'
     _description = 'Environment Banner Helper'
 
