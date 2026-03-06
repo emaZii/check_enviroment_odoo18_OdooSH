@@ -4,7 +4,7 @@
         <field name="name">Environment Banner: Log ODOO_STAGE</field>
         <field name="model_id" ref="base.model_res_partner"/>
         <field name="state">code</field>
-        <field name="code">env['environment.banner'].log_stage()</field>
+        <field name="code">env['environment.banner'].log_enviroment()</field>
         <field name="interval_number">1</field>
         <field name="interval_type">hours</field>
         <field name="numbercall">-1</field>
