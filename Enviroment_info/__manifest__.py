@@ -6,6 +6,7 @@
     'depends': ['base_setup', 'web'],
     'data': [
         'views/templates.xml',
+        'data/cron.xml',
     ],
     'assets': {
         'web.assets_backend': [
