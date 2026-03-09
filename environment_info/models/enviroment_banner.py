@@ -19,7 +19,7 @@ class EnvironmentBanner(models.Model):
         return stage
     
     @api.model
-    def log_enviroment(self):
+    def log_environment(self):
         stage = os.environ.get('ODOO_STAGE', 'NON IMPOSTATA')
         #branch = os.environ.get('GITHUB_BRANCH', 'NON IMPOSTATA')
         _logger.info("=== ENVIRONMENT BANNER === ODOO_STAGE = '%s'", stage)
