@@ -5,7 +5,7 @@
         <field name="name">Environment Banner: Log ODOO_STAGE</field>
         <field name="model_id" ref="environment_info.model_environment_banner"/>
         <field name="state">code</field>
-        <field name="code">model.log_enviroment()</field>
+        <field name="code">model.log_environment()</field>
         <field name="interval_number">1</field>
         <field name="interval_type">hours</field>
         <field name="active">True</field>
