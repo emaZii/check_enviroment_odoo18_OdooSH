@@ -85,17 +85,6 @@ environment_info/
 ```
 
 ---
-
-## Compatibility
-
-| Odoo version | Odoo.sh | Self-hosted |
-|---|---|---|
-| 18.0 | ✅ | ⚠️ `ODOO_STAGE` must be set manually |
-
-On self-hosted instances `ODOO_STAGE` is not set automatically. You can set it manually in your server environment or `odoo.conf` equivalent before starting Odoo.
-
----
-
 ## License
 
 LGPL-3
