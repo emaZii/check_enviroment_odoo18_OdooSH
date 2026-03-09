@@ -37,18 +37,6 @@ At page load, a QWeb template reads `ODOO_STAGE` via a Python model and injects 
 
 ---
 
-## Disabling the banner
-
-To hide the banner without uninstalling the module, go to:
-
-**Settings → Technical → Parameters → System Parameters**
-
-Find or create the key `environment_banner.enabled` and set the value to `False`.
-
-Set it back to `True` to re-enable.
-
----
-
 ## Cron job
 
 The module includes a scheduled action that runs every hour and logs the current environment info:
